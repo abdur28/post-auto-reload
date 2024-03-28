@@ -1,0 +1,23 @@
+/* Post.module.css */
+.post {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 20vh;
+  }
+  
+  .post h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* PostsList.module.css */
+  .postsList {
+    
+    margin: 0 auto;
+  }
+  
+  .loadMoreButton {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  
