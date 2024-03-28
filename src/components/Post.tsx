@@ -1,4 +1,3 @@
-// Post.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Post.module.css';
@@ -13,9 +12,9 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ post }) => {
   return (
-    
-
+    // Обертка для поста
     <div className={styles.post}>
+      {/* Ссылка на страницу с деталями поста */}
       <Link to={`/post/${post.id}`}>
         <div className="card">
           <div className="content">
